@@ -96,8 +96,14 @@ p {
 }
 
 @media (max-width: 600px) {
-  h2,
-  .primary-link {
+  h2 {
     text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .primary-link {
+    display: flex;
+    justify-content: center;
   }
 }
