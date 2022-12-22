@@ -95,7 +95,7 @@ p {
   color: white;
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
   h2 {
     text-align: center;
   }
