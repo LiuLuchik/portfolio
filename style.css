@@ -96,7 +96,8 @@ p {
 }
 
 @media (max-width: 600px) {
-  h2 {
+  h2,
+  .primary-link {
     text-align: center;
   }
 }
