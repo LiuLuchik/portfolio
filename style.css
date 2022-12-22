@@ -95,13 +95,13 @@ p {
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   h2 {
     text-align: center;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .primary-link {
     display: flex;
     justify-content: center;
