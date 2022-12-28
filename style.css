@@ -21,6 +21,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  text-align: center;
 }
 
 h3 {
@@ -36,6 +37,12 @@ p {
 .greetings {
   background: var(--third-color);
   text-align: center;
+  padding-bottom: 5px;
+  margin-bottom: 40px;
+}
+
+.greetings h3 {
+  padding-bottom: 20px;
 }
 
 .navigation-links {
@@ -66,7 +73,7 @@ p {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 80px 40px;
 }
 
 .homepage-link {
@@ -90,6 +97,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  padding-top: 15px;
 }
 
 .email-link:hover {
@@ -115,8 +123,20 @@ p {
     text-align: center;
     font-size: 30px;
   }
+  h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
   p {
     font-size: 15px;
+  }
+
+  .greetings h3 {
+    padding-bottom: 0;
+  }
+
+  .navigation-links {
+    margin: 0 auto;
   }
   .primary-link {
     display: flex;
@@ -125,5 +145,9 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .email-link {
+    font-size: 25px;
   }
 }
