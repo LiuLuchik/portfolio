@@ -1,12 +1,12 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
+  --third-color: #f0edfa;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin: 60px auto;
-  max-width: 800px;
 }
 
 h1,
@@ -33,6 +33,11 @@ p {
   line-height: 1.5;
 }
 
+.greetings {
+  background: var(--third-color);
+  text-align: center;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -47,15 +52,21 @@ p {
   text-transform: capitalize;
 }
 
-.contact-link {
+.btn-contact {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--secondary-color);
+  font-weight: bold;
 }
 
-.about-link {
+.btn-about {
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  border: 3px solid var(--primary-color);
+  font-weight: bold;
+}
+
+.project-description {
+  padding: 120px 60px;
 }
 
 .homepage-link {
@@ -85,26 +96,34 @@ p {
   text-decoration: underline;
 }
 
-.primary-link {
+.btn-primary {
   border-radius: 4px;
   padding: 20px 15px;
+  margin-top: 40px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 800px) {
+  h1 {
+    font-size: 55px;
+  }
   h2 {
     text-align: center;
-    margin-top: 30px;
+    font-size: 30px;
   }
-}
-
-@media (max-width: 800px) {
+  p {
+    font-size: 15px;
+  }
   .primary-link {
     display: flex;
     justify-content: center;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
   }
 }
