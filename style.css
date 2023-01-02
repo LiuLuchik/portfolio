@@ -59,6 +59,11 @@ p {
   text-transform: capitalize;
 }
 
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+
 .btn-contact {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
