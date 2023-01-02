@@ -161,6 +161,10 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 800px) {
+  .logo {
+    max-width: 30px;
+  }
+
   h1 {
     font-size: 55px;
   }
@@ -194,5 +198,9 @@ footer .social-links a:hover {
 
   .email-link {
     font-size: 25px;
+  }
+
+  footer {
+    margin-top: 50px;
   }
 }
